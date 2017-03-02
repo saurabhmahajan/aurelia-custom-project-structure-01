@@ -9,6 +9,7 @@ System.config({
     ]
   },
   paths: {
+    "*": "src/*.js",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
@@ -16,6 +17,7 @@ System.config({
   map: {
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.1.0",
     "aurelia-framework": "npm:aurelia-framework@1.1.0",
+    "aurelia-pal-browser": "npm:aurelia-pal-browser@1.1.0",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
